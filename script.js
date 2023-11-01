@@ -1,5 +1,4 @@
-import { updateBird } from "./bird.js"
-
+import { updateBird } from './bird.js'
 document.addEventListener("keypress", handleStart, { once: true })
 const title = document.querySelector("[data-title]")
 
